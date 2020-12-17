@@ -8,5 +8,17 @@
         "url": "https://www.youtube.com/watch?v=pqySZ9bn2gI"
       }
     ]
-  }
+  },
+  "": [
+    {
+      "bandName": "Muse",
+      "path": "/muse",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=JPus8xP-6w0",
+          "title": "Newborn"
+        }
+      ]
+    }
+  ]
 }
