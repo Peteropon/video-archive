@@ -15,6 +15,14 @@
       "path": "/muse",
       "videos": [
         {
+          "url": "https://www.youtube.com/watch?v=PaJ9hE4fH6o",
+          "title": "Stockholm Syndrome"
+        },
+        {
+          "title": "Resistance",
+          "url": "https://www.youtube.com/watch?v=8PRj_mDokyI"
+        },
+        {
           "url": "https://www.youtube.com/watch?v=JPus8xP-6w0",
           "title": "Newborn"
         }
