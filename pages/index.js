@@ -2,8 +2,16 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import data from "../content.json";
 
-export default function Home() {
+export async function getStaticProps() {
+  return {
+    props: {
+      data,
+    },
+  };
+}
+export default function Home({ data }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -31,17 +39,14 @@ export default function Home() {
         </motion.div>
 
         <div className={styles.grid}>
-          <Link href={"/bands/band"}>
-            <a className={styles.card}>
-              <h3>Muse &rarr;</h3>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-          </Link>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          {data.map((band, key) => (
+            <Link key={key} href={"/bands/band"}>
+              <a className={styles.card}>
+                <h3>{band.bandName} &rarr;</h3>
+                <p>{band.videos.length} videos</p>
+              </a>
+            </Link>
+          ))}
         </div>
       </main>
 
