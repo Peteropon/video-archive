@@ -1,1 +1,12 @@
-{}
+{
+  "band": {
+    "bandName": "Trip Hop Posidi",
+    "path": "/triphopposidi",
+    "videos": [
+      {
+        "title": "Roads",
+        "url": "https://www.youtube.com/watch?v=pqySZ9bn2gI"
+      }
+    ]
+  }
+}
