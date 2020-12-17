@@ -1,17 +1,6 @@
-{
-  "band": {
-    "bandName": "Trip Hop Posidi",
-    "path": "/triphopposidi",
-    "videos": [
-      {
-        "title": "Roads",
-        "url": "https://www.youtube.com/watch?v=pqySZ9bn2gI"
-      }
-    ]
-  },
-  "": [
+[
     {
-      "bandName": "Muse",
+      "bandName": "Muse Tribute",
       "path": "/muse",
       "videos": [
         {
@@ -27,6 +16,60 @@
           "title": "Newborn"
         }
       ]
+    },
+    {
+        "bandName": "Disco 2006",
+        "path": "/disco2006",
+        "videos": [
+            {
+                "title": "Disco",
+                "url": "https://www.youtube.com/watch?v=e0UXPoFjj7E"
+            }
+        ]
+    },
+    {
+        "bandName": "Trip hop - Posidi",
+        "path": "/triphopposidi",
+        "videos": [
+            {
+                "title": "Roads",
+                "url": "https://www.youtube.com/watch?v=pqySZ9bn2gI"
+            },
+            {
+                "title": "Teardrop",
+                "url": "https://www.youtube.com/watch?v=Bpz1ZSHftWw"
+            }
+        ]
+    },
+    {
+        "bandName":"Trip hop - APΘ",
+        "path":"/triphopapth",
+        "videos":[]
+    },
+    {
+        "bandName": "905 - Posidi",
+        "path": "/905posidi",
+        "videos": []
+    },
+    {
+        "bandName": "905 - APΘ",
+        "path": "/905apth",
+        "videos": []
+    },    {
+        "bandName": "Mano Negra Tribute - Posidi",
+        "path": "/manonegraposidi",
+        "videos": []
+    },    {
+        "bandName": "Mano Negra Tribute - APΘ",
+        "path": "/manonegraapth",
+        "videos": []
+    },    {
+        "bandName": "Ελληνικο Ροκ - Posidi",
+        "path": "/elrockposidi",
+        "videos": []
+    },    {
+        "bandName": "Ελληνικο Ροκ - APΘ",
+        "path": "/elrockAPΘ",
+        "videos": []
     }
-  ]
-}
+]
