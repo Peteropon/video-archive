@@ -1,7 +1,7 @@
 [
     {
       "bandName": "Muse Tribute",
-      "path": "/muse",
+      "path": "muse",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=PaJ9hE4fH6o",
@@ -19,7 +19,7 @@
     },
     {
         "bandName": "Disco 2006",
-        "path": "/disco2006",
+        "path": "disco2006",
         "videos": [
             {
                 "title": "Disco",
@@ -29,7 +29,7 @@
     },
     {
         "bandName": "Trip hop - Posidi",
-        "path": "/triphopposidi",
+        "path": "triphopposidi",
         "videos": [
             {
                 "title": "Roads",
@@ -43,33 +43,33 @@
     },
     {
         "bandName":"Trip hop - APΘ",
-        "path":"/triphopapth",
+        "path":"triphopapth",
         "videos":[]
     },
     {
         "bandName": "905 - Posidi",
-        "path": "/905posidi",
+        "path": "905posidi",
         "videos": []
     },
     {
         "bandName": "905 - APΘ",
-        "path": "/905apth",
+        "path": "905apth",
         "videos": []
     },    {
         "bandName": "Mano Negra Tribute - Posidi",
-        "path": "/manonegraposidi",
+        "path": "manonegraposidi",
         "videos": []
     },    {
         "bandName": "Mano Negra Tribute - APΘ",
-        "path": "/manonegraapth",
+        "path": "manonegraapth",
         "videos": []
     },    {
         "bandName": "Ελληνικο Ροκ - Posidi",
-        "path": "/elrockposidi",
+        "path": "elrockposidi",
         "videos": []
     },    {
         "bandName": "Ελληνικο Ροκ - APΘ",
-        "path": "/elrockAPΘ",
+        "path": "elrockAPΘ",
         "videos": []
     }
 ]

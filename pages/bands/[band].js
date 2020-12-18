@@ -4,7 +4,6 @@ import { getBandData, getPaths } from "../../lib/videos";
 
 export async function getStaticProps({ params }) {
   const band = getBandData(params);
-  console.log(band);
   return {
     props: {
       band,
@@ -14,7 +13,6 @@ export async function getStaticProps({ params }) {
 
 export function getStaticPaths() {
   const paths = getPaths();
-  console.log(paths);
   return {
     paths,
     fallback: false,
