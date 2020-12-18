@@ -40,7 +40,7 @@ export default function Home({ data }) {
 
         <div className={styles.grid}>
           {data.map((band, key) => (
-            <Link key={key} href={"/bands/band"}>
+            <Link key={key} href={`/bands/${band.path}`}>
               <a className={styles.card}>
                 <h3>{band.bandName} &rarr;</h3>
                 <p>{band.videos.length} videos</p>
