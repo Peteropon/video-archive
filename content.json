@@ -38,31 +38,229 @@
             {
                 "title": "Teardrop",
                 "url": "https://www.youtube.com/watch?v=Bpz1ZSHftWw"
+            },
+            {
+                "title": "Hands around my throat/You make me feel",
+                "url": "https://www.youtube.com/watch?v=xP16hRvAf2I"
+            },
+            {
+                "title": "Child is my name",
+                "url": "https://www.youtube.com/watch?v=Lqp_s09ooLo"
+            },
+            {
+                "title": "Glory box",
+                "url" : "https://www.youtube.com/watch?v=I2ZvUmIK4D0"
+            },
+            {
+                "title": "Stroker ace",
+                "url": "https://www.youtube.com/watch?v=qfKvB-SrUq8"
+            },
+            {
+                "title": "Otherwise",
+                "url": "https://www.youtube.com/watch?v=s1OmOtTdWWI"
             }
         ]
     },
     {
         "bandName":"Trip hop - APΘ",
         "path":"triphopapth",
-        "videos":[]
+        "videos":[
+            {
+                "title": "Hotel",
+                "url": "https://www.youtube.com/watch?v=3gjq2lsMa6k"
+            },
+            {
+                "title":"Child is my name",
+                "url": "https://www.youtube.com/watch?v=gE3iGLLVF5I"
+            },
+            {
+                "title":"Hands around my throat/You make me feel",
+                "url": "https://www.youtube.com/watch?v=WqcI-1Uvj9c"
+            },
+            {
+                "title": "Glory box",
+                "url": "https://www.youtube.com/watch?v=s1OmOtTdWWI"
+            },
+            {
+                "title": "Teardrop",
+                "url": "https://www.youtube.com/watch?v=gGhUW0O66Qk"
+            },
+            {
+                "title":"Stroker ace",
+                "url": "https://www.youtube.com/watch?v=WRNA8qH1pXs"
+            },
+            {
+                "title": "Roads",
+                "url": "https://www.youtube.com/watch?v=H-MLbCRyJOo"
+            },
+            {
+                "title": "Otherwise",
+                "url": "https://www.youtube.com/watch?v=mTYXimX89AQ"
+            }
+        ]
     },
     {
         "bandName": "905 - Posidi",
         "path": "905posidi",
-        "videos": []
+        "videos": [
+            {
+                "title": "Would?",
+                "url": "https://www.youtube.com/watch?v=gs5k9HeL2kE"
+            },
+            {
+                "title": "Go with the flow",
+                "url": "https://www.youtube.com/watch?v=eubmWBE_lH8"
+            },
+            {
+                "title": "Where did you sleep last night",
+                "url": "https://www.youtube.com/watch?v=PqWnv8Ma11w"
+            },
+            {
+                "title": "Jeremy",
+                "url": "https://www.youtube.com/watch?v=_Ac_30iNZH8"
+            },
+            {
+                "title": "Like a stone",
+                "url": "https://www.youtube.com/watch?v=nSj6iGeOnv0"
+            },
+            {
+                "title": "Stone the crow",
+                "url": "https://www.youtube.com/watch?v=CzTe7zTIHsY"
+            }
+        ]
     },
     {
         "bandName": "905 - APΘ",
         "path": "905apth",
-        "videos": []
+        "videos": [
+            {
+                "title": "The Outsider",
+                "url": "https://www.youtube.com/watch?v=AoZrTEGFcqw"
+            },
+            {
+                "title": "The pot",
+                "url": "https://www.youtube.com/watch?v=8esKYtdPqU8"
+            },
+            {
+                "title": "Jeremy",
+                "url": "https://www.youtube.com/watch?v=7y0hu-uNZn8"
+            },
+            {
+                "title": "Where did you sleep last night",
+                "url": "https://www.youtube.com/watch?v=rE2m0DwH5OA"
+            },
+            {
+                "title": "Would?",
+                "url": "https://www.youtube.com/watch?v=H0avQ65K_IA"
+            },
+            {
+                "title": "Digging the grave",
+                "url": "https://www.youtube.com/watch?v=T2ppDMVvPHE"
+            },
+            {
+                "title": "Stone the crow",
+                "url": "https://www.youtube.com/watch?v=7J1r2fXW_uA"
+            },
+            {
+                "title": "Like a stone",
+                "url": "https://www.youtube.com/watch?v=Q8eKaDIpOq0"
+            }
+        ]
     },    {
         "bandName": "Mano Negra Tribute - Posidi",
         "path": "manonegraposidi",
-        "videos": []
+        "videos": [
+            {
+                "title": "Indios de Barcelona",
+                "url": "https://www.youtube.com/watch?v=_sUtzSxAwOg"
+            },
+            {
+                "title": "Sidi h'bibi",
+                "url": "https://www.youtube.com/watch?v=xklvWCTOjGs"
+            },
+            {
+                "title": "Senor Matanza",
+                "url": "https://www.youtube.com/watch?v=uxsEQYwNQv0"
+            },
+            {
+                "title": "Letter to the censors",
+                "url": "https://www.youtube.com/watch?v=v8-EBqlD-F4"
+            },
+            {
+                "title": "King of the Bongo",
+                "url": "https://www.youtube.com/watch?v=DUIsjPwnUr4"
+            },
+            {
+                "title": "Soledad",
+                "url": "https://www.youtube.com/watch?v=CwmzxfAKa4o"
+            },
+            {
+                "title": "Mala vida",
+                "url": "https://www.youtube.com/watch?v=PKrY2j1jNls"
+            },            
+            {
+                "title": "Out of time man",
+                "url": "https://www.youtube.com/watch?v=iMc9cfO-IzI"
+            },
+            {
+                "title": "Salga la luna/King kong 5",
+                "url": "https://www.youtube.com/watch?v=TNqu1aiT0os"
+            },
+            {
+                "title": "Patchuko hop",
+                "url": "https://www.youtube.com/watch?v=xZBsyedXvJU"
+            }
+        ]
     },    {
         "bandName": "Mano Negra Tribute - APΘ",
         "path": "manonegraapth",
-        "videos": []
+        "videos": [
+            {
+                "title": "Indios de Barcelona",
+                "url": "https://www.youtube.com/watch?v=19MvQTEqJWw"
+            },
+            {
+                "title": "Sidi h'bibi",
+                "url": "https://www.youtube.com/watch?v=Vfl-WLkNbvg"
+            },
+            {
+                "title": "Senor Matanza",
+                "url": "https://www.youtube.com/watch?v=oOU_Q7jUjDQ"
+            },
+            {
+                "title": "Letter to the censors",
+                "url": "https://www.youtube.com/watch?v=mOQ0u4RUl1A"
+            },
+            {
+                "title": "King of the Bongo",
+                "url": "https://www.youtube.com/watch?v=pFI7blSBesQ"
+            },
+            {
+                "title": "Soledad",
+                "url": "https://www.youtube.com/watch?v=iqpjp8kl3VQ"
+            },
+            {
+                "title": "Mala vida",
+                "url": "https://www.youtube.com/watch?v=ZrskMDV2Mhk"
+            },            
+            {
+                "title": "Out of time man",
+                "url": "https://www.youtube.com/watch?v=8uHr6tLB4Rc"
+            },
+            {
+                "title": "King kong 5",
+                "url": "https://www.youtube.com/watch?v=UH3-0qWuFwY"
+            },
+            {
+                "title": "Patchuko hop",
+                "url": "https://www.youtube.com/watch?v=uiahX2J8DrU"
+            },
+            {
+                "title": "Salga la luna",
+                "url": "https://www.youtube.com/watch?v=zXu5YWypkGI"
+            }
+
+        ]
     },    {
         "bandName": "Ελληνικο Ροκ - Posidi",
         "path": "elrockposidi",
