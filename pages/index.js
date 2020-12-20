@@ -40,12 +40,23 @@ export default function Home({ data }) {
 
         <div className={styles.grid}>
           {data.map((band, key) => (
-            <Link key={key} href={`/bands/${band.path}`}>
-              <a className={styles.card}>
-                <h3>{band.bandName} &rarr;</h3>
-                <p>{band.videos.length} videos</p>
-              </a>
-            </Link>
+            <motion.ul
+              key={key}
+              className={styles.card}
+              whileHover={{
+                position: "relative",
+                zIndex: 1,
+                scale: 1.1,
+                transition: { duration: 0.4 },
+              }}
+            >
+              <Link href={`/bands/${band.path}`}>
+                <a>
+                  <h3>{band.bandName} &rarr;</h3>
+                  <p>{band.videos.length} videos</p>
+                </a>
+              </Link>
+            </motion.ul>
           ))}
         </div>
       </main>
