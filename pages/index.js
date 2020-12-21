@@ -15,7 +15,9 @@ export async function getStaticProps() {
 export default function Home({ data }) {
   return (
     <Layout home>
-      <Head>{siteTitle}</Head>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
       <main className={styles.main}>
         <motion.div
           initial="hidden"
@@ -35,9 +37,9 @@ export default function Home({ data }) {
           <h1 className={styles.title}>Welcome to my video archives!</h1>
         </motion.div>
 
-        <div className={styles.grid}>
-          {data.map((band, key) => (
-            <motion.ul
+        <ul className={styles.grid}>
+          {data.map(({ path, bandName, videos }, key) => (
+            <motion.li
               key={key}
               className={styles.card}
               whileHover={{
@@ -47,15 +49,15 @@ export default function Home({ data }) {
                 transition: { duration: 0.4 },
               }}
             >
-              <Link href={`/bands/${band.path}`}>
+              <Link href={`/bands/${path}`}>
                 <a>
-                  <h3>{band.bandName} &rarr;</h3>
-                  <p>{band.videos.length} videos</p>
+                  <h3>{bandName} &rarr;</h3>
+                  <p>{videos.length} videos</p>
                 </a>
               </Link>
-            </motion.ul>
+            </motion.li>
           ))}
-        </div>
+        </ul>
       </main>
     </Layout>
   );
