@@ -1,6 +1,7 @@
 import Head from "next/head";
 import ReactPlayer from "react-player/youtube";
 import { getBandData, getPaths } from "../../lib/videos";
+import Layout from "../../components/layout";
 
 export async function getStaticProps({ params }) {
   const band = getBandData(params);
@@ -21,7 +22,7 @@ export function getStaticPaths() {
 
 export default function Band({ band }) {
   return (
-    <>
+    <Layout>
       <Head>
         <title>{band.bandName}</title>
       </Head>
@@ -34,6 +35,6 @@ export default function Band({ band }) {
           url={video.url}
         ></ReactPlayer>
       ))}
-    </>
+    </Layout>
   );
 }

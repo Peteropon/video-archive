@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -13,12 +14,8 @@ export async function getStaticProps() {
 }
 export default function Home({ data }) {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Petros Video Archive</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout home>
+      <Head>{siteTitle}</Head>
       <main className={styles.main}>
         <motion.div
           initial="hidden"
@@ -60,14 +57,6 @@ export default function Home({ data }) {
           ))}
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <p>
-          Made by Petros <br /> For educational, demonstrative and showing-off
-          puproses only <br />
-          &copy; PT 2020
-        </p>
-      </footer>
-    </div>
+    </Layout>
   );
 }
