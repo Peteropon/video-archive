@@ -3,6 +3,7 @@ import ReactPlayer from "react-player/youtube";
 import { getBandData, getPaths } from "../../lib/videos";
 import Layout from "../../components/layout";
 import styles from "../../styles/Band.module.css";
+import { motion } from "framer-motion";
 
 export async function getStaticProps({ params }) {
   const band = getBandData(params);
@@ -27,12 +28,13 @@ export default function Band({ band }) {
       <Head>
         <title>{band.bandName}</title>
       </Head>
-      <header className={styles.header}>{band.bandName}</header>
+      <motion.h2 layout className={styles.header}>
+        {band.bandName}
+      </motion.h2>
       <ul className={styles.list}>
         {band.videos.map((video, key) => (
-          <li>
+          <li key={key}>
             <ReactPlayer
-              key={key}
               light={true}
               controls={true}
               url={video.url}
