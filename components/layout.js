@@ -6,7 +6,7 @@ export const siteTitle = "Petros Video Archive";
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.content}>
+    <div className={styles.container}>
       <Head>
         <link />
         <meta name="description" content="Archive of my videos using Next.js" />
