@@ -22,7 +22,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
-  color: rgba(255, 248, 220, 0.479);
+  color: #f59994;
 }
 
 .title,
@@ -42,6 +42,7 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+  list-style: none;
 }
 
 .card {
@@ -49,9 +50,10 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: #0d2b52;
+  background-color: #b85e00;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 2px solid #2e2b23;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -59,14 +61,14 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #f59994;
+  border-color: #f59994;
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  color: rgba(184, 135, 11, 0.733);
+  color: #c0b490;
 }
 
 .card p {
@@ -81,7 +83,13 @@
 
 @media (max-width: 600px) {
   .grid {
-    width: 100%;
+    width: auto;
     flex-direction: column;
+    padding-left: 0;
+  }
+
+  .card {
+    width: -webkit-fill-available;
+    width: -moz-available;
   }
 }

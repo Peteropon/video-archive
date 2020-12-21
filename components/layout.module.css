@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f59994;
 }
 
 .footer img {
@@ -25,7 +26,5 @@
 }
 
 .footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }

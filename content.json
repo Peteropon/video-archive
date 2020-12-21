@@ -28,7 +28,7 @@
         ]
     },
     {
-        "bandName": "Trip hop - Posidi",
+        "bandName": "Trip hop @ Posidi",
         "path": "triphopposidi",
         "videos": [
             {
@@ -62,7 +62,7 @@
         ]
     },
     {
-        "bandName":"Trip hop - APΘ",
+        "bandName":"Trip hop @ APΘ",
         "path":"triphopapth",
         "videos":[
             {
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "bandName": "905 - Posidi",
+        "bandName": "905 @ Posidi",
         "path": "905posidi",
         "videos": [
             {
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "bandName": "905 - APΘ",
+        "bandName": "905 @ APΘ",
         "path": "905apth",
         "videos": [
             {
@@ -167,7 +167,7 @@
             }
         ]
     },    {
-        "bandName": "Mano Negra Tribute - Posidi",
+        "bandName": "Mano Negra Tribute @ Posidi",
         "path": "manonegraposidi",
         "videos": [
             {
@@ -212,7 +212,7 @@
             }
         ]
     },    {
-        "bandName": "Mano Negra Tribute - APΘ",
+        "bandName": "Mano Negra Tribute @ APΘ",
         "path": "manonegraapth",
         "videos": [
             {
@@ -262,12 +262,12 @@
 
         ]
     },    {
-        "bandName": "Ελληνικο Ροκ - Posidi",
+        "bandName": "Ελληνικο Ροκ @ Posidi",
         "path": "elrockposidi",
         "videos": []
     },    {
-        "bandName": "Ελληνικο Ροκ - APΘ",
-        "path": "elrockAPΘ",
+        "bandName": "Ελληνικο Ροκ @ APΘ",
+        "path": "elrockapth",
         "videos": []
     }
 ]
