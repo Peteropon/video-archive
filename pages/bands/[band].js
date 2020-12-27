@@ -28,9 +28,7 @@ export default function Band({ band }) {
       <Head>
         <title>{band.bandName}</title>
       </Head>
-      <motion.h2 layout className={styles.header}>
-        {band.bandName}
-      </motion.h2>
+      <motion.h2 className={styles.header}>{band.bandName}</motion.h2>
       <ul className={styles.list}>
         {band.videos.map((video, key) => (
           <li key={key}>
