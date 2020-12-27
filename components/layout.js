@@ -13,13 +13,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
       </Head>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+
       <footer className={styles.footer}>
         <p>
           Made by Petros <br /> For educational, demonstrative and showing-off
