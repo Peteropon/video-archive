@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import ReactPlayer from "react-player/youtube";
 import { getBandData, getPaths } from "../../lib/videos";
 import Layout from "../../components/layout";
@@ -44,6 +45,11 @@ export default function Band({ band }) {
           </li>
         ))}
       </ul>
+      <div className={styles.backToHome}>
+        <Link href="/">
+          <a>← Back to home</a>
+        </Link>
+      </div>
     </Layout>
   );
 }
