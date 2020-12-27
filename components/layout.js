@@ -8,7 +8,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Archive of my videos using Next.js" />
         <meta name="og:title" content={siteTitle} />
       </Head>

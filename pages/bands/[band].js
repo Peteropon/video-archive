@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import ReactPlayer from "react-player/youtube";
 import { getBandData, getPaths } from "../../lib/videos";
-import Layout from "../../components/layout";
 import styles from "../../styles/Band.module.css";
 import { motion } from "framer-motion";
 
@@ -25,10 +24,7 @@ export function getStaticPaths() {
 
 export default function Band({ band }) {
   return (
-    <Layout>
-      <Head>
-        <title>{band.bandName}</title>
-      </Head>
+    <motion.div>
       <motion.h2 layout className={styles.header}>
         {band.bandName}
       </motion.h2>
@@ -50,6 +46,6 @@ export default function Band({ band }) {
           <a>← Back to home</a>
         </Link>
       </div>
-    </Layout>
+    </motion.div>
   );
 }
