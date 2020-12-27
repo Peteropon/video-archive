@@ -41,6 +41,7 @@ const headerVariants = {
     },
   },
 };
+
 export default function Home({ data }) {
   return (
     <Layout home>
@@ -48,7 +49,16 @@ export default function Home({ data }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <main className={styles.main}>
+      <motion.div
+        layout
+        initial="initial"
+        animate="enter"
+        exit="exit"
+        variants={{
+          exit: { transition: { staggerChildren: 0.1 } },
+        }}
+        className={styles.main}
+      >
         <motion.div
           initial="hidden"
           animate="visible"
@@ -56,41 +66,31 @@ export default function Home({ data }) {
         >
           <h1 className={styles.title}>Welcome to my video archives!</h1>
         </motion.div>
-
-        <motion.div
-          layout
-          initial="initial"
-          animate="enter"
-          exit="exit"
-          variants={{
-            exit: { transition: { ease: "easeOut", staggerChildren: 0.1 } },
-          }}
-        >
-          <ul className={styles.grid}>
-            {data.map(({ path, bandName, videos }, key) => (
-              <motion.li
-                scroll={false}
-                key={key}
-                className={styles.card}
-                variants={postVariants}
-                whileHover={{
-                  position: "relative",
-                  zIndex: 1,
-                  scale: 1.1,
-                  transition: { duration: 0.4 },
-                }}
-              >
-                <Link scroll={false} href={`/bands/${path}`}>
-                  <a>
-                    <h3>{bandName} &rarr;</h3>
-                    <p>{videos.length} videos</p>
-                  </a>
-                </Link>
-              </motion.li>
-            ))}
-          </ul>
-        </motion.div>
-      </main>
+        <ul className={styles.grid}>
+          {data.map(({ path, bandName, videos }, key) => (
+            <motion.li
+              scroll={false}
+              key={key}
+              className={styles.card}
+              variants={postVariants}
+              whileHover={{
+                position: "relative",
+                zIndex: 1,
+                scale: 1.1,
+                transition: { duration: 0.4 },
+              }}
+            >
+              <Link scroll={false} href={`/bands/${path}`}>
+                <a>
+                  <h3>{bandName} &rarr;</h3>
+                  <p>{videos.length} videos</p>
+                </a>
+              </Link>
+            </motion.li>
+          ))}
+        </ul>
+        )
+      </motion.div>
     </Layout>
   );
 }
