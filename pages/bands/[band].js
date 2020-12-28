@@ -11,7 +11,7 @@ const pageVariants = {
   initial: {
     y: "50%",
     opacity: 0,
-    transition: { ease, duration: 0.8, delay: 0.8 },
+    transition: { ease, duration: 0.8, delay: 0.2 },
   },
   animate: {
     y: "0%",
@@ -21,7 +21,7 @@ const pageVariants = {
   exit: {
     y: "50%",
     opacity: 0,
-    transition: { ease, duration: 0.8, delay: 0.8 },
+    transition: { ease, duration: 0.8, delay: 0.2 },
   },
 };
 export async function getStaticProps({ params }) {
