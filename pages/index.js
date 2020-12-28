@@ -42,13 +42,12 @@ const headerVariants = {
 };
 export default function Home({ data }) {
   return (
-    <motion.div
-      layout
+    <motion.main
       initial="initial"
       animate="enter"
       exit="exit"
       variants={{
-        exit: { transition: { ease: "easeOut", staggerChildren: 0.1 } },
+        exit: { transition: { staggerChildren: 0.1 } },
       }}
       className={styles.main}
     >
@@ -84,6 +83,6 @@ export default function Home({ data }) {
           </motion.li>
         ))}
       </ul>
-    </motion.div>
+    </motion.main>
   );
 }
