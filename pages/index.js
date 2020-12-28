@@ -47,7 +47,7 @@ export default function Home({ data }) {
       animate="enter"
       exit="exit"
       variants={{
-        exit: { transition: { staggerChildren: 0.1 } },
+        enter: { transition: { staggerChildren: 0.1 } },
       }}
       className={styles.main}
     >
