@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Footer from "./footer";
 import styles from "./layout.module.css";
 
 export const siteTitle = "Petros Video Archive";
@@ -20,13 +21,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <footer className={styles.footer}>
-        <p>
-          Made by Petros <br /> For educational, demonstrative and showing-off
-          puproses only <br />
-          &copy; PT 2020
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 }
