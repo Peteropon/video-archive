@@ -13,18 +13,6 @@ export async function getStaticProps() {
   };
 }
 
-const headerVariants = {
-  hidden: { scale: 0.8, opacity: 0 },
-  visible: {
-    scale: 1,
-    opacity: 1,
-    transition: {
-      ease: "easeOut",
-      delay: 0.3,
-      duration: 1,
-    },
-  },
-};
 export default function Home({ data }) {
   return (
     <Layout home>
@@ -33,14 +21,6 @@ export default function Home({ data }) {
       </Head>
 
       <main className={styles.main}>
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={headerVariants}
-        >
-          <h1 className={styles.title}>Welcome to my video archives!</h1>
-        </motion.div>
-
         <ul className={styles.grid}>
           {data.map(({ path, bandName, videos }, key) => (
             <motion.li
