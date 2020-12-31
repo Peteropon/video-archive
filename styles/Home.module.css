@@ -13,7 +13,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 1rem;
   list-style: none;
 }
 
@@ -63,5 +63,12 @@
   .card {
     width: -webkit-fill-available;
     width: -moz-available;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .card p,
+  .card h3 {
+    font-size: 1.2rem;
   }
 }
