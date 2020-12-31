@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "./footer";
 import Header from "./header";
+import Back from "./back";
 import styles from "./layout.module.css";
 
 export const siteTitle = "Petros Video Archive";
@@ -16,13 +16,7 @@ export default function Layout({ children, home }) {
       </Head>
       <Header />
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      {!home && <Back />}
       <Footer />
     </div>
   );
