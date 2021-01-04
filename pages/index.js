@@ -20,29 +20,27 @@ export default function Home({ data }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <main className={styles.main}>
-        <ul className={styles.grid}>
-          {data.map(({ path, bandName, videos }, key) => (
-            <motion.li
-              key={key}
-              className={styles.card}
-              whileHover={{
-                position: "relative",
-                zIndex: 1,
-                scale: 1.1,
-                transition: { duration: 0.4 },
-              }}
-            >
-              <Link scroll={false} href={`/bands/${path}`}>
-                <a>
-                  <h3>{bandName} &rarr;</h3>
-                  <p>{videos.length} videos</p>
-                </a>
-              </Link>
-            </motion.li>
-          ))}
-        </ul>
-      </main>
+      <ul className={styles.grid}>
+        {data.map(({ path, bandName, videos }, key) => (
+          <motion.li
+            key={key}
+            className={styles.card}
+            whileHover={{
+              position: "relative",
+              zIndex: 1,
+              scale: 1.1,
+              transition: { duration: 0.4 },
+            }}
+          >
+            <Link scroll={false} href={`/bands/${path}`}>
+              <a>
+                <h3>{bandName} &rarr;</h3>
+                <p>{videos.length} videos</p>
+              </a>
+            </Link>
+          </motion.li>
+        ))}
+      </ul>
     </Layout>
   );
 }
