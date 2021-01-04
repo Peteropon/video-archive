@@ -1,0 +1,12 @@
+.titleWrapper {
+  background-color: #091e3a;
+  width: 100%;
+}
+
+.title {
+  margin: 2rem 2rem 4rem;
+  line-height: 1.15;
+  font-size: 3rem;
+  color: #f59994;
+  text-align: center;
+}
