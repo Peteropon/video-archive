@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { VideoAccordion } from "../../components/videoAccordion";
-import ReactPlayer from "react-player/youtube";
 import { getBandData, getPaths } from "../../lib/videos";
 import Layout from "../../components/layout";
 import styles from "../../styles/Band.module.css";
@@ -33,7 +32,7 @@ export default function Band({ band }) {
       <ul className={styles.list}>
         {band.videos.map((video, key) => (
           <li key={key}>
-            <VideoAccordion {...video} />
+            <VideoAccordion video={video} />
           </li>
 
           // <li key={key}>
