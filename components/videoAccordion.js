@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Player } from "./player";
+import styles from "./videoAccordion.module.css";
 
 const Accordion = ({ title, url, expanded, setExpanded }) => {
   const isOpen = title === expanded;
@@ -8,8 +9,9 @@ const Accordion = ({ title, url, expanded, setExpanded }) => {
   return (
     <>
       <motion.header
+        className={styles.header}
         initial={false}
-        animate={{ backgroundColor: isOpen ? "#FF0088" : "#0055FF" }}
+        animate={{ backgroundColor: isOpen ? "#6d3800" : "#b85e00" }}
         onClick={() => setExpanded(isOpen ? false : title)}
       >
         {title}

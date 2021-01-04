@@ -1,6 +1,8 @@
 .header {
   font-size: 1.5rem;
   color: #f59994;
+  text-align: center;
+  width: 100%;
 }
 
 .list {
@@ -11,15 +13,24 @@
 }
 
 .list li {
-  flex-basis: 50%;
+  flex-basis: 35%;
   margin: 0 2rem 1rem 0;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
+  .header {
+    text-align: center;
+  }
+
   .list {
     align-items: center;
     justify-content: center;
+  }
+
+  .list li {
+    flex-basis: 90%;
   }
 }
