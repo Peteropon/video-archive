@@ -7,7 +7,14 @@ const Accordion = ({ title, url, expanded, setExpanded }) => {
   const isOpen = title === expanded;
 
   return (
-    <>
+    <motion.div
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{
+        scale: 1,
+        opacity: 1,
+        transition: { duration: 0.8, ease: "backInOut" },
+      }}
+    >
       <motion.header
         className={styles.header}
         initial={false}
@@ -25,16 +32,16 @@ const Accordion = ({ title, url, expanded, setExpanded }) => {
             animate="open"
             exit="collapsed"
             variants={{
-              open: { opacity: 1, height: "100%" },
+              open: { opacity: 1, height: "auto" },
               collapsed: { opacity: 0, height: 0 },
             }}
-            transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
           >
             <Player url={url} />
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </motion.div>
   );
 };
 
