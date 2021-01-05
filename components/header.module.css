@@ -1,5 +1,5 @@
 .titleWrapper {
-  background-color: #091e3a;
+  background-color: var(--dt-blue);
   width: 100%;
 }
 

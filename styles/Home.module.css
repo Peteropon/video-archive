@@ -14,9 +14,9 @@
   padding: 1.5rem;
   text-align: left;
   color: var(--dt-blue);
-  background-color: var(--raw-sienna);
+  background-color: var(--v-cinnamon);
   text-decoration: none;
-  border: 2px solid #2e2b23;
+  border: 2px solid var(--dt-blue);
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -24,14 +24,13 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: var(--v-cinnamon);
-  border-color: var(--v-cinnamon);
+  border-color: black;
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  color: var(--ecru);
+  color: var(--raw-sienna);
 }
 
 .card p {
