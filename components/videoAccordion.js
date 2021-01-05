@@ -19,12 +19,13 @@ const Accordion = ({ title, url, expanded, setExpanded }) => {
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
+            className={styles.playerWrapper}
             key="content"
             initial="collapsed"
             animate="open"
             exit="collapsed"
             variants={{
-              open: { opacity: 1, height: "auto" },
+              open: { opacity: 1, height: "100%" },
               collapsed: { opacity: 0, height: 0 },
             }}
             transition={{ duration: 0.8, ease: [0.04, 0.62, 0.23, 0.98] }}
