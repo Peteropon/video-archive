@@ -166,7 +166,8 @@
                 "url": "https://www.youtube.com/watch?v=Q8eKaDIpOq0"
             }
         ]
-    },    {
+    },    
+    {
         "bandName": "Mano Negra Tribute @ Posidi",
         "path": "manonegraposidi",
         "videos": [
@@ -211,7 +212,8 @@
                 "url": "https://www.youtube.com/watch?v=xZBsyedXvJU"
             }
         ]
-    },    {
+    },    
+    {
         "bandName": "Mano Negra Tribute @ APΘ",
         "path": "manonegraapth",
         "videos": [
@@ -261,13 +263,163 @@
             }
 
         ]
-    },    {
+    },    
+    {
         "bandName": "Ελληνικο Ροκ @ Posidi",
         "path": "elrockposidi",
-        "videos": []
-    },    {
+        "videos": [
+            {
+                "title": "Το 69",
+                "url": "https://www.youtube.com/watch?v=ashx1sjkSF8"
+            },
+            {
+                "title": "Ότι θες εσύ",
+                "url": "https://www.youtube.com/watch?v=Vq6CfpzP0JQ"
+            },
+            {
+                "title": "Αδρεναλίνη",
+                "url": "https://www.youtube.com/watch?v=l4UYhk2XMRU"
+            },
+            {
+                "title": "Νιώθω ενοχές",
+                "url": "https://www.youtube.com/watch?v=DSnrsVJtDjc"
+            },
+            {
+                "title": "Μια φορά",
+                "url": "https://www.youtube.com/watch?v=27ZyambePG4"
+            },
+            {
+                "title": "Δεν θέλω",
+                "url": "https://www.youtube.com/watch?v=nDroY2Ehaa0"
+            },
+            {
+                "title": "Χάρτινο τσίρκο",
+                "url": "https://www.youtube.com/watch?v=ZjMbt7KlwVA"
+            },
+            {
+                "title": "Τον ίδιο το θεό",
+                "url": "https://www.youtube.com/watch?v=3YOJsaQXKbw"
+            },
+            {
+                "title": "Εδώ",
+                "url": "https://www.youtube.com/watch?v=ehXdKXf_Qus"
+            },
+            {
+                "title": "Πιάνω φωτιά",
+                "url": "https://www.youtube.com/watch?v=C2XyXnhRp20"
+            }
+        ]
+    },    
+    {
         "bandName": "Ελληνικο Ροκ @ APΘ",
         "path": "elrockapth",
-        "videos": []
+        "videos": [
+            {
+                "title": "Το 69",
+                "url": "https://www.youtube.com/watch?v=ABvNu2NFbbw"
+            },
+            {
+                "title": "Ότι θες εσύ",
+                "url": "https://www.youtube.com/watch?v=FJrRbigWerY"
+            },
+            {
+                "title": "Αδρεναλίνη",
+                "url": "https://www.youtube.com/watch?v=5wImxyKPKgM"
+            },
+            {
+                "title": "Νιώθω ενοχές",
+                "url": "https://www.youtube.com/watch?v=oP83IR7NNJg"
+            },
+            {
+                "title": "Μια φορά",
+                "url": "https://www.youtube.com/watch?v=CIBzlyBZkf0"
+            },
+            {
+                "title": "Δεν θέλω",
+                "url": "https://www.youtube.com/watch?v=MTepDrxPhf0"
+            },
+            {
+                "title": "Χάρτινο τσίρκο",
+                "url": "https://www.youtube.com/watch?v=obsQk-ypuu0"
+            },
+            {
+                "title": "Τον ίδιο το θεό",
+                "url": "https://www.youtube.com/watch?v=S1Mf3aTkanA"
+            },
+            {
+                "title": "Εδώ",
+                "url": "https://www.youtube.com/watch?v=g1Zbt0Y01tI"
+            },
+            {
+                "title": "Πιάνω φωτιά",
+                "url": "https://www.youtube.com/watch?v=fthMloSO2-s"
+            },
+            {
+                "title": "Παυσίπονο",
+                "url": "https://www.youtube.com/watch?v=E5MY0exRTgs"
+            }
+        ]
+    },
+    {
+        "bandName": "Six & The City",
+        "path": "six&thecity",
+        "videos": [
+            {
+                "title": "Saturday night fever",
+                "url": "https://www.youtube.com/watch?v=g9TLeaaIT3c"
+            },
+            {
+                "title": "Rock n roll medley",
+                "url": "https://www.youtube.com/watch?v=GkdaZno23sk"
+            },
+            {
+                "title": "Disco medley",
+                "url": "https://www.youtube.com/watch?v=uz7c8FUCRos"
+            },
+            {
+                "title": "Are you gonna be my girl",
+                "url": "https://www.youtube.com/watch?v=kTkRsw2dulE"
+            },
+            {
+                "title": "Crazy in love/Crazy",
+                "url": "https://www.youtube.com/watch?v=LEuEm8BrJ-g"
+            },
+            {
+                "title": "Mercy",
+                "url": "https://www.youtube.com/watch?v=0TnhsMQP5Nw"
+            },
+            {
+                "title": "Let's get it started",
+                "url": "https://www.youtube.com/watch?v=dy1_noYGmz0"
+            },
+            {
+                "title": "How gee/Σε θέλω",
+                "url": "https://www.youtube.com/watch?v=SoQHUILhpqk"
+            },
+            {
+                "title": "Superstition",
+                "url": "https://www.youtube.com/watch?v=rwkuqDNz28g"
+            },
+            {
+                "title": "You had me",
+                "url": "https://www.youtube.com/watch?v=N7Ms1KbZ_nw"
+            },
+            {
+                "title": "Ghostbusters",
+                "url": "https://www.youtube.com/watch?v=se8_rxPqpQ8"
+            },
+            {
+                "title": "Fuck U",
+                "url": "https://www.youtube.com/watch?v=ECdIdgbi29o"
+            },
+            {
+                "title": "I feel good",
+                "url": "https://www.youtube.com/watch?v=1grTQrrXIHM"
+            },
+            {
+                "title": "Next to you",
+                "url": "https://www.youtube.com/watch?v=TTPzl5XTjms"
+            }
+        ]
     }
 ]
