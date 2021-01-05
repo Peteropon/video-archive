@@ -6,13 +6,11 @@
 }
 
 .list {
-  flex-wrap: wrap;
-  flex-direction: row;
+  min-width: 30%;
   list-style: none;
 }
 
 .list li {
-  flex-basis: 35%;
   margin: 0 2rem 1rem 0;
   top: 0;
   left: 0;
@@ -27,6 +25,7 @@
   .list {
     align-items: center;
     justify-content: center;
+    min-width: 60%;
   }
 
   .list li {
