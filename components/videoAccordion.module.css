@@ -1,5 +1,6 @@
 .header {
-  color: #c0b490;
+  color: var(--ecru);
   padding: 0.5em 1em;
   border-radius: 5px;
+  min-width: 50%;
 }

@@ -17,5 +17,5 @@
 
 .backToHome {
   margin: 3rem 1rem;
-  color: #f59994;
+  color: var(--v-cinnamon);
 }

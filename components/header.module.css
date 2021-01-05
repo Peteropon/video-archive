@@ -7,6 +7,6 @@
   margin: 2rem 2rem 4rem;
   line-height: 1.15;
   font-size: 3rem;
-  color: #f59994;
+  color: var(--v-cinnamon);
   text-align: center;
 }

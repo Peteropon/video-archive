@@ -5,7 +5,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
-  color: #f59994;
+  color: var(--v-cinnamon);
 }
 
 .footer img {

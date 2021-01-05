@@ -1,12 +1,11 @@
 .header {
   font-size: 1.5rem;
-  color: #f59994;
+  color: var(--v-cinnamon);
   text-align: center;
   width: 100%;
 }
 
 .list {
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   list-style: none;

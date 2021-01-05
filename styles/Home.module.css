@@ -13,8 +13,8 @@
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
-  color: #0d2b52;
-  background-color: #b85e00;
+  color: var(--dt-blue);
+  background-color: var(--raw-sienna);
   text-decoration: none;
   border: 2px solid #2e2b23;
   border-radius: 10px;
@@ -24,14 +24,14 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #f59994;
-  border-color: #f59994;
+  color: var(--v-cinnamon);
+  border-color: var(--v-cinnamon);
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-  color: #c0b490;
+  color: var(--ecru);
 }
 
 .card p {
