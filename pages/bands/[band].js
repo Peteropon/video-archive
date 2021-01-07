@@ -1,9 +1,9 @@
 import Head from "next/head";
+import { useState } from "react";
 import { VideoAccordion } from "../../components/videoAccordion";
 import { getBandData, getPaths } from "../../lib/videos";
 import Layout from "../../components/layout";
 import styles from "../../styles/Band.module.css";
-import { motion } from "framer-motion";
 
 export async function getStaticProps({ params }) {
   const band = getBandData(params);
@@ -23,6 +23,8 @@ export function getStaticPaths() {
 }
 
 export default function Band({ band }) {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <Layout>
       <Head>
@@ -32,7 +34,12 @@ export default function Band({ band }) {
       <ul className={styles.list}>
         {band.videos.map((video, key) => (
           <li key={key}>
-            <VideoAccordion video={video} />
+            <VideoAccordion
+              title={video.title}
+              url={video.url}
+              expanded={expanded}
+              setExpanded={setExpanded}
+            />
           </li>
         ))}
       </ul>
