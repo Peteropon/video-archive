@@ -13,6 +13,21 @@ export async function getStaticProps() {
   };
 }
 
+const bandVariants = {
+  initial: { scale: 0.8, opacity: 0 },
+  animate: {
+    scale: 1,
+    opacity: 1,
+    transition: { duration: 0.8, ease: "backInOut" },
+  },
+  whileHover: {
+    position: "relative",
+    zIndex: 1,
+    scale: 1.1,
+    transition: { duration: 0.4 },
+  },
+};
+
 export default function Home({ data }) {
   return (
     <Layout home>
@@ -25,12 +40,10 @@ export default function Home({ data }) {
           <motion.li
             key={key}
             className={styles.card}
-            whileHover={{
-              position: "relative",
-              zIndex: 1,
-              scale: 1.1,
-              transition: { duration: 0.4 },
-            }}
+            initial="initial"
+            animate="animate"
+            whileHover="whileHover"
+            variants={bandVariants}
           >
             <Link scroll={false} href={`/bands/${path}`}>
               <a>
