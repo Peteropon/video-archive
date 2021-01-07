@@ -34,16 +34,6 @@ export default function Band({ band }) {
           <li key={key}>
             <VideoAccordion video={video} />
           </li>
-
-          // <li key={key}>
-          //   <ReactPlayer
-          //     light={true}
-          //     controls={true}
-          //     url={video.url}
-          //     width="100%"
-          //     height="100%"
-          //   ></ReactPlayer>
-          // </li>
         ))}
       </ul>
     </Layout>
