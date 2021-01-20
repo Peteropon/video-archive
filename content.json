@@ -421,5 +421,57 @@
                 "url": "https://www.youtube.com/watch?v=TTPzl5XTjms"
             }
         ]
+    },
+    {
+        "bandName": "90s 2011",
+        "path": "90s",
+        "videos": [
+            {
+                "title": "Everybody",
+                "url": "https://www.youtube.com/watch?v=hh7UPqN8D2g"
+            },
+            {
+                "title": "Kiss me",
+                "url": "https://www.youtube.com/watch?v=zvT5MbadW_o"
+            },
+            {
+                "title": "Tubthumping",
+                "url": "https://www.youtube.com/watch?v=fTFI1zu-a9Q"
+            },
+            {
+                "title": "Bad touch",
+                "url": "https://www.youtube.com/watch?v=bcmIAVI2TWg"
+            }
+        ]
+    },
+    {
+        "bandName": "Metal 2004",
+        "path": "metal2004",
+        "videos": [
+            {
+                "title": "Runaway",
+                "url": "https://www.youtube.com/watch?v=whnLi-4CgFA"
+            },
+            {
+                "title": "Rock n roll all night",
+                "url": "https://www.youtube.com/watch?v=9yvU7V_zzLw"
+            },
+            {
+                "title": "Trust",
+                "url": "https://www.youtube.com/watch?v=pBY0OO28eoA"
+            },
+            {
+                "title": "When the crowds are gone",
+                "url": "https://www.youtube.com/watch?v=zp1rt6SrILo"
+            },
+            {
+                "title": "Nodody's fool",
+                "url": "https://www.youtube.com/watch?v=luH0MQxM24Q"
+            },
+            {
+                "title": "Fade to black",
+                "url": "https://www.youtube.com/watch?v=ezw8mu40ix4"
+            }
+        ]
     }
 ]
