@@ -1,3 +1,7 @@
+I used to play music in my younger days. This is website where I collected all available online videos that I play music in. It was a bit of a pain to search in Youtube to find them so I gathered them all in one place so that I can watch them easily and reminisce (and maybe weep). I was an amateur by the way so if you decide to watch some of them be prepared for mistakes and not very good quality always. :)
+
+I used [Next.js](https://nextjs.org/) because I was curious of it as well as Framer Motion for animations and transitions.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
